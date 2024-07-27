@@ -13,16 +13,7 @@ C:\Users\shiba\test\git_challenge>git commit -m "hello_world.txtを追加"
 C:\Users\shiba\test\git_challenge>git add hello_world.txt
 C:\Users\shiba\test\git_challenge>git status
 C:\Users\shiba\test\git_challenge>git commit -m "日本語訳を追記"
-C:\Users\shiba\test\git_challenge>git log
 
-commit 6b4373d6b80f6a4684a5ac14cb3240596e017a13 (HEAD -> main)
-Author: GreenGrass48 <takeshi.shiba.shiba@gmail.com>
-Date:   Wed Jul 24 18:42:43 2024 +0900
-
-    日本語訳を追記
-
-commit 60fbc40006b46a78499949157fd0bdf901278f60
-Author: GreenGrass48 <takeshi.shiba.shiba@gmail.com>
-Date:   Wed Jul 24 18:37:57 2024 +0900
-
-    hello_world.txtを追加
+PS C:\Users\shiba\test\git_challenge> git log --oneline
+6b4373d (HEAD -> main) 日本語訳を追記
+60fbc40 hello_world.txtを追加
