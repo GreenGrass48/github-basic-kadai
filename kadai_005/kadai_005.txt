@@ -1,60 +1,20 @@
 PS C:\Users\shiba\test> mkdir git_challenge
 
-
-    ディレクトリ: C:\Users\shiba\test
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        2024/07/24     18:16                git_challenge
-
-
 PS C:\Users\shiba\test> cd git_challenge
 PS C:\Users\shiba\test\git_challenge> git init
-Initialized empty Git repository in C:/Users/shiba/test/git_challenge/.git/
 PS C:\Users\shiba\test\git_challenge> dir
 PS C:\Users\shiba\test\git_challenge> echo "hello, world!" >> hello_world.txt
 PS C:\Users\shiba\test\git_challenge> dir
-
-
-    ディレクトリ: C:\Users\shiba\test\git_challenge
-    ディレクトリ: C:\Users\shiba\test\git_challenge
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        2024/07/24     18:22             32 hello_world.txt       
-
-
 PS C:\Users\shiba\test\git_challenge> git add hello_world.txt
 PS C:\Users\shiba\test\git_challenge> git status
-On branch main
 
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   hello_world.txt
 
 C:\Users\shiba\test\git_challenge>git commit -m "hello_world.txtを追加"
-[main (root-commit) 60fbc40] hello_world.txt繧定ｿｽ蜉
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 hello_world.txt
-
 C:\Users\shiba\test\git_challenge>git add hello_world.txt
-
 C:\Users\shiba\test\git_challenge>git status
-On branch main
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   hello_world.txt
-
-
 C:\Users\shiba\test\git_challenge>git commit -m "日本語訳を追記"
-[main 6b4373d] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
 C:\Users\shiba\test\git_challenge>git log
+
 commit 6b4373d6b80f6a4684a5ac14cb3240596e017a13 (HEAD -> main)
 Author: GreenGrass48 <takeshi.shiba.shiba@gmail.com>
 Date:   Wed Jul 24 18:42:43 2024 +0900
